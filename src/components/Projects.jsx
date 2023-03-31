@@ -5,7 +5,7 @@ import Github from "@/icons/Github"
 import { useRouter } from "next/router"
 
 const Projects = () => {
-    const { data } = useFetch("http://localhost:3000/api/portfolio")
+    const { data } = useFetch("https://portafolio-next-ui.vercel.app/api/portfolio")
     const [selectedItem, setSelectedItem] = useState({ title: "Prueba" })
     const [isModalOpen, setIsModalOpen] = useState(false)
     const router = useRouter()
