@@ -1,0 +1,58 @@
+export default function handler(req, res) {
+    res.status(200).json([
+        {
+            src: "https://user-images.githubusercontent.com/107811114/223771677-6d6ca047-5ffb-4ba8-abd5-e3eebbbc0342.png",
+            alt: "Docu.ai",
+            title: "docu.ai",
+            description: "Document pdf generator and editor using ai",
+            tecnologies: ["Nextjs", "React", "Tailwind"],
+            github: "",
+            demo: "https://docs-generator-delta.vercel.app/",
+        },
+        {
+            src: "https://user-images.githubusercontent.com/107811114/188900201-bd0c00e1-1d0a-457e-9343-dd88bc4444b4.png",
+            alt: "SAGA",
+            title: "SAGA",
+            description: "Smooth and animated landing page with scroll effects",
+            tecnologies: ["Nextjs", "Tailwind", "Framer motion"],
+            github: "https://github.com/Germoso/saga/",
+            demo: "https://saga-psi.vercel.app/",
+        },
+        {
+            src: "https://user-images.githubusercontent.com/107811114/183265273-3e2df0b3-4d83-40ce-88a3-df54ea7c7332.png",
+            alt: "OUTSIDE.JS",
+            title: "outside.js",
+            description: "A fast playground to run and play with some javascript code",
+            tecnologies: ["React", "Tailwind"],
+            github: "https://github.com/Germoso/outside-js",
+            demo: "https://outside-js.vercel.app/",
+        },
+        {
+            src: "https://user-images.githubusercontent.com/107811114/183492025-7ec59e19-43bc-4fd5-80ed-10c59cca70f0.PNG",
+            alt: "GIF APP",
+            title: "GIFACTS",
+            description: "Searches for GIFS",
+            tecnologies: ["React", "Tailwind"],
+            github: "https://github.com/Purplerain69/gifapi",
+            demo: "https://gifact.vercel.app/",
+        },
+        {
+            src: "https://user-images.githubusercontent.com/107811114/223774004-9eb01d2d-d365-448f-aebb-fc725803e015.png",
+            alt: "Social network",
+            title: "Social network",
+            description: "Social network for share with developers",
+            tecnologies: ["Nextjs", "Tailwind", "Firebase"],
+            github: "https://github.com/Purplerain69",
+            demo: "https://social-network-three-xi.vercel.app/home",
+        },
+        {
+            src: "https://user-images.githubusercontent.com/107811114/228945342-21087698-d819-40ff-845a-119295811b1d.png",
+            alt: "Social network",
+            title: "Yoga Landing Page",
+            description: "Landing page",
+            tecnologies: ["Nextjs", "Tailwind", "React"],
+            github: "https://github.com/Germoso/yoga-landing-page",
+            demo: "https://yoga-landing-page-one.vercel.app/",
+        },
+    ])
+}
