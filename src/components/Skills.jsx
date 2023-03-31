@@ -3,7 +3,7 @@ import { Text, Grid, Card, Row } from "@nextui-org/react"
 import useFetch from "@/hooks/useFetch"
 
 const Skills = () => {
-    const { data } = useFetch("http://localhost:3000/api/skills")
+    const { data } = useFetch("https://portafolio-next-ui.vercel.app/api/skills")
 
     return (
         <>
